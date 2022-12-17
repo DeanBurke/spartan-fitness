@@ -9,7 +9,8 @@
 body {
     font-family: 'Fauna One', sans-serif;
     font-weight: 400;
-    color: #575857;
+    color: #c6c6c6;
+    background-color: black;
 }
 
 /* headings and logo */
@@ -52,4 +53,13 @@ h1 {
 #menu a {
     text-decoration: none;
     color: #A37532;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #c6c6c6;
+    font-weight: bold;
+}
+
+.active {
+    text-shadow: #c6c6c6;
 }
