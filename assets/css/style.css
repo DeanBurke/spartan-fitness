@@ -10,7 +10,7 @@ body {
     font-family: 'Fauna One', sans-serif;
     font-weight: 400;
     color: #c6c6c6;
-    background-color: black;
+    background-color: #1f1d1d;
 }
 
 /* headings and logo */
@@ -58,8 +58,20 @@ h1 {
 #menu a:hover {
     border-bottom: 1px solid #c6c6c6;
     font-weight: bold;
+    border-color: #A37532;
+    color: #c6c6c6;
 }
 
 .active {
     text-shadow: #c6c6c6;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 750px;
+    width: 100%;
+    background: url('../images/hero-image-final-edit.jpg') no-repeat center center ;
+    background-size: cover;
+    overflow: hidden;
 }
