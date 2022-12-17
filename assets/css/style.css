@@ -79,12 +79,30 @@ h1 {
 /* home page information */
 
 #home-info div {
-    background-color: rgba(163, 117, 50, .6);
-    width: 33.33%;
     height: 375px;
     float: left;
     padding: 30px 0 0 15px;
-    border: 2px solid #c6c6c6;
     box-sizing: border-box;
-    overflow: hidden;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#home-info li {
+    list-style-type: none;
+}
+
+#home-content {
+    background-color: rgba(163, 117, 50, .6);
+    border: 2px solid #c6c6c6;
+    width: 25%;
+}
+
+#home-content-inner-spacer {
+    width: 6.25%;
+    background-color: #1f1d1d;
+}
+
+#home-content-outer-spacer {
+    width: 6.25%;
+    background-color: #1f1d1d;
 }
