@@ -85,6 +85,13 @@ h1 {
     box-sizing: border-box;
     border-radius: 25px;
     text-align: center;
+    margin-top: 50px;
+}
+
+#home-info h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 75px;
 }
 
 #home-info li {
@@ -92,9 +99,10 @@ h1 {
 }
 
 #home-content {
-    background-color: rgba(163, 117, 50, .6);
+    background-color: rgba(163, 117, 50, .5);
     border: 2px solid #c6c6c6;
     width: 25%;
+    line-height: 25px;
 }
 
 #home-content-inner-spacer {
