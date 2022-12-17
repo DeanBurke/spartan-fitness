@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    font-family: 'Fauna One', sans-serif;
+    font-weight: 400;
+    color: #575857;
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: 'Cinzel', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+#logo {
+    float: left;
+    text-decoration: none;
+    margin-left: 35px;
+    color: #A37532;
+    font-size: 300%;
+
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    float: right;
+    letter-spacing: 3px;
+
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    margin-right: 35px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #A37532;
 }
