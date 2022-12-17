@@ -79,7 +79,7 @@ h1 {
 /* home page information */
 
 #home-info div {
-    height: 375px;
+    height: 300px;
     float: left;
     padding: 30px 0 0 15px;
     box-sizing: border-box;
@@ -101,16 +101,42 @@ h1 {
 #home-content {
     background-color: rgba(163, 117, 50, .5);
     border: 2px solid #c6c6c6;
-    width: 25%;
+    width: 50%;
     line-height: 25px;
 }
 
-#home-content-inner-spacer {
-    width: 6.25%;
+#home-content-outer-spacer {
+    width: 25%;
     background-color: #1f1d1d;
 }
 
-#home-content-outer-spacer {
-    width: 6.25%;
+#times-pricing div {
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 15px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#times-pricing-content {
+    background-color: rgba(163, 117, 50, .5);
+    border: 2px solid #c6c6c6;
+    width: 22.5%;
+    line-height: 25px;
+}
+
+#times-pricing-outer-spacer {
+    width: 25%;
     background-color: #1f1d1d;
+}
+
+#times-pricing-inner-spacer {
+    width: 5%;
+    background-color: #1f1d1d;
+}
+
+#times-pricing-content li {
+    list-style-type: none;
 }
