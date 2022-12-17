@@ -88,11 +88,7 @@ h1 {
     margin-top: 50px;
 }
 
-#home-info h2 {
-    text-decoration: underline;
-    text-transform: uppercase;
-    line-height: 75px;
-}
+
 
 #home-info li {
     list-style-type: none;
@@ -139,4 +135,11 @@ h1 {
 
 #times-pricing-content li {
     list-style-type: none;
+}
+
+section h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-family: 'Cinzel', sans-serif;
 }
