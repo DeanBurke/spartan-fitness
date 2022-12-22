@@ -236,4 +236,18 @@ section h2 {
     justify-content: space-around;
 }
 
+/* footer */
+
+footer {
+    line-height: 75px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
 
