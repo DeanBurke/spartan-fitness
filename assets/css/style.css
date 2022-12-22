@@ -153,12 +153,32 @@ section h2 {
 #benefits h1 {
     font-family: 'Cinzel', sans-serif;
     margin-top: 25px;
+    text-align: center;
 }
 
-#powerlifting-bodybuilding {
+.powerlifting {
+    height: 375px;
+    float: left;
+    padding: 30px 0 0 15px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#powerlifting-bodybuilding-picture {
     height: 375px;
     width: 50%;
     background: url('../images/Powerlifting\ -\ SF\ edit.jpg') no-repeat left;
     background-size: 100% ;
     border-radius: 25px;
 }
+
+#powerlifting-bodybuilding-info {
+    background-color: rgba(163, 117, 50, .5);
+    border: 2px solid #c6c6c6;
+    width: 50%;
+    line-height: 25px;
+}
+
+
