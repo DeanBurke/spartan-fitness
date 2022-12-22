@@ -170,7 +170,7 @@ section h2 {
     height: 375px;
     width: 50%;
     background: url('../images/Powerlifting\ -\ SF\ edit\ compress.jpg') no-repeat center;
-    background-size: 100% ;
+    background-size: cover ;
     border-radius: 25px;
 }
 
@@ -196,11 +196,37 @@ section h2 {
     width: 50%;
     background: url('../images/Crossfit\ -\ SF\ edit\ compress.jpg') no-repeat;
     background-position: top;
-    background-size: 100% ;
+    background-size: cover ;
     border-radius: 25px;
 }
 
 #crossfit-info {
+    background-color: rgba(163, 117, 50, .5);
+    border: 2px solid #c6c6c6;
+    width: 50%;
+    line-height: 25px;
+}
+
+.cardio {
+    height: 375px;
+    float: left;
+    padding: 30px 0 0 15px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#cardio-picture {
+    height: 375px;
+    width: 50%;
+    background: url('../images/Cardio\ -SF\ edit\ compress.jpg') no-repeat;
+    background-position: top;
+    background-size: cover ;
+    border-radius: 25px;
+}
+
+#cardio-info {
     background-color: rgba(163, 117, 50, .5);
     border: 2px solid #c6c6c6;
     width: 50%;
