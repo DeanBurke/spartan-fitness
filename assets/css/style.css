@@ -98,13 +98,18 @@ h1 {
 }
 
 #home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background-color: rgba(163, 117, 50, .5);
     border: 2px solid #c6c6c6;
     width: 50%;
     line-height: 25px;
+    
 }
 
-#home-content-outer-spacer {
+.home-content-outer-spacer {
+    display: flex;
     width: 25%;
     background-color: #1f1d1d;
 }
@@ -127,7 +132,7 @@ h1 {
     line-height: 25px;
 }
 
-#times-pricing-outer-spacer {
+.times-pricing-outer-spacer {
     width: 25%;
     background-color: #1f1d1d;
 }
@@ -258,6 +263,36 @@ footer > div {
 
 .social-networks i {
     color: #c6c6c6;
+}
+
+/* media queries */
+
+/* for larger to medium screen sizes from 1250px wide and down */
+@media screen and (max-width: 1250px) {
+    
+    #home-content {
+        width: 80%;
+    
+    }
+
+    .home-content-outer-spacer {
+        width: 10%;
+    }
+
+    .times-pricing-outer-spacer {
+        width: 10%;
+    }
+
+    #times-pricing-content {
+        width: 35%;
+    }
+
+    #times-pricing-inner-spacer {
+        width: 10%;
+    }
+
+
+    
 }
 
 
