@@ -123,6 +123,9 @@ h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #times-pricing-content {
@@ -284,16 +287,30 @@ footer > div {
     }
 
     #times-pricing-content {
-        width: 35%;
+        width: 37.5%;
     }
 
     #times-pricing-inner-spacer {
-        width: 10%;
+        width: 5%;
     }
 
-
-    
 }
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #home-content {
+        font-size: 1.5vw;
+    }
+
+    #times-pricing-content {
+        font-size: 1.5vw;
+    }
+
+    #benefits {
+        font-size: 1.5vw;
+    }
+    
+}    
 
 
 
