@@ -295,6 +295,7 @@ footer > div {
     }
 
 }
+
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -310,7 +311,31 @@ footer > div {
         font-size: 1.5vw;
     }
     
-}    
+} 
 
+/* for small screen sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+
+    #logo {
+        width: 100%;
+        line-height: 75px;
+        text-align: center;
+    }
+    
+    #menu {
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+        border: 1px solid #A37532;
+    }
+
+    #menu li {
+        float: none;
+        display: inline-block;
+        position: relative;
+    }
+
+
+}
 
 
