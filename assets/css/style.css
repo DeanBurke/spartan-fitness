@@ -247,6 +247,13 @@ footer > div {
     color: #c6c6c6;
 }
 
+/* contact-us form */
+
+#form-layout {
+    width: 100%;
+    overflow: hidden;
+}
+
 /* media queries */
 
 /* for larger to medium screen sizes from 1250px wide and down */
