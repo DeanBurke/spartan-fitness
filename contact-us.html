@@ -24,22 +24,25 @@
             </Ul>
         </nav>
     </header>
-    <section id="form-layout">
-        <div></div>
-        <div></div>
+    <section class="form-layout">
+        <div id="left-spartan-helmet" class="form-layout"></div>
         <div>
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <h2>Get in touch!</h2>
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="first_name" required>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="last_name" required>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email_address" required>
-                <label for="message"></label>
-                <textarea name="message" id="message" placeholder="Write your message here." cols="30" rows="10"></textarea>            
+            <form action="https://formdump.codeinstitute.net/" method="post" class="form-layout" id="form">
+                <fieldset> 
+                    <legend>Get in touch!</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="first_name" class="text-input" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="last_name" class="text-input" required>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email_address" class="text-input" required>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" placeholder="Write your message here." cols="30" rows="10" class="text-input"></textarea> 
+                    <input type="submit" value="Submit!" id="submit">
+                </fieldset>           
             </form>
         </div>
+        <div id="right-spartan-helmet" class="form-layout"></div>
     </section>
     <footer>
         <div>
