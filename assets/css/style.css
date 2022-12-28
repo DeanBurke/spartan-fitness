@@ -40,7 +40,8 @@ h1 {
 
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -76,7 +77,7 @@ h1 {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url('../images/hero-image-final-edit.jpg') no-repeat center center ;
+    background: url('../images/hero-image-final-edit.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -105,7 +106,7 @@ h1 {
     border: 2px solid #c6c6c6;
     width: 50%;
     line-height: 25px;
-    
+
 }
 
 .home-content-outer-spacer {
@@ -176,7 +177,7 @@ section h2 {
 #powerlifting-bodybuilding-picture {
     width: 50%;
     background: url('../images/Powerlifting\ -\ SF\ edit\ compress.jpg') no-repeat center;
-    background-size: cover ;
+    background-size: cover;
     border-radius: 25px;
 }
 
@@ -192,7 +193,7 @@ section h2 {
 #crossfit-picture {
     width: 50%;
     background: url('../images/Crossfit\ -\ SF\ edit\ compress.jpg') no-repeat;
-    background-size: cover ;
+    background-size: cover;
     border-radius: 25px;
 }
 
@@ -209,7 +210,7 @@ section h2 {
     width: 50%;
     background: url('../images/Cardio\ -SF\ edit\ compress.jpg') no-repeat;
     background-position: top;
-    background-size: cover ;
+    background-size: cover;
     border-radius: 25px;
 }
 
@@ -224,20 +225,20 @@ section h2 {
 
 /* footer */
 
-footer > div {
+footer>div {
     line-height: 75px;
     width: 100%;
     height: 75px;
     background-color: rgba(163, 117, 50, .5);
     overflow: hidden;
-    
+
 }
 
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
     font-size: 125%;
     padding: 2%;
@@ -252,6 +253,16 @@ footer > div {
 fieldset {
     border: 2px solid #c6c6c6;
     background-color: rgba(163, 117, 50, .5);
+    border-radius: 10px;
+}
+
+legend {
+    margin-left: 10px;
+}
+
+label {
+    margin-left: 10px;
+    width: 100%;
 }
 
 .form-layout {
@@ -263,54 +274,78 @@ fieldset {
 }
 
 #left-spartan-helmet {
-    width: 33%;
-    background: url('../images/Spartan\ Helmet\ -\ SF\ edit\ compress.jpg') no-repeat center center;
+    width: 33.33%;
+    background: url('../images/Spartan\ Helmet\ -\ SF\ edit\ compress.jpg') no-repeat center;
     border-radius: 25px;
-
 }
 
 #right-spartan-helmet {
-    width: 33%;
+    width: 33.33%;
     background: url('../images/Spartan\ Helmet\ -\ SF\ edit\ compress\ flipped.jpg') no-repeat center;
     border-radius: 25px;
 }
 
 #form {
     padding: 10px;
-    width: 33%;
-    margin: 0 auto;
-    box-sizing: border-box;
+    width: 33.33%;
 }
 
 .text-input {
     width: 95%;
     margin: 8px;
     padding: 8px;
-    
+    border-radius: 5px;
+    font-family: 'Fauna One', sans-serif;
+    border: 1px solid #c6c6c6;
+    box-sizing: border-box;
+}
+
+.text-input:hover {
+    border: 2px solid #f16c6b;
+    background-color: whitesmoke;
 }
 
 #submit {
     display: block;
-    text-align: center;
-    margin: 8px;
+    margin: 0 auto 10px auto;
     padding: 8px;
     border-radius: 10%;
+    font-family: 'Fauna One', sans-serif;
+    background-color: whitesmoke;
 }
 
-
-
-
-
+#submit:hover {
+    color: whitesmoke;
+    background-color: #f16c6b;
+}
 
 
 /* media queries */
 
+/* for larger  from 1900px wide and down */
+@media screen and (max-width: 1900px) {
+
+    #left-spartan-helmet {
+        visibility: hidden;
+        width: 20%;
+    }
+
+    #right-spartan-helmet {
+        visibility: hidden;
+        width: 20%;
+    }
+
+    #form {
+        width: 60%;
+    }
+
+}
+
 /* for larger to medium screen sizes from 1250px wide and down */
 @media screen and (max-width: 1250px) {
-    
+
     #home-content {
         width: 80%;
-    
     }
 
     .home-content-outer-spacer {
@@ -345,8 +380,8 @@ fieldset {
     #benefits {
         font-size: 1.5vw;
     }
-    
-} 
+
+}
 
 /* for small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
@@ -357,14 +392,14 @@ fieldset {
         text-align: center;
         margin: 0;
     }
-    
+
     #menu {
         width: 100%;
         line-height: 50px;
         text-align: center;
         border-top: 1px solid #A37532;
         margin: 0;
-        
+
     }
 
     #menu li {
@@ -376,5 +411,3 @@ fieldset {
 
 
 }
-
-
