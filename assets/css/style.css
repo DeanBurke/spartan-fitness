@@ -174,7 +174,6 @@ section h2 {
 }
 
 #powerlifting-bodybuilding-picture {
-    height: 375px;
     width: 50%;
     background: url('../images/Powerlifting\ -\ SF\ edit\ compress.jpg') no-repeat center;
     background-size: cover ;
@@ -190,20 +189,9 @@ section h2 {
     justify-content: space-around;
 }
 
-.crossfit {
-    height: 375px;
-    float: left;
-    padding: 30px 0 0 15px;
-    box-sizing: border-box;
-    border-radius: 25px;
-    margin-bottom: 50px;
-}
-
 #crossfit-picture {
-    height: 375px;
     width: 50%;
     background: url('../images/Crossfit\ -\ SF\ edit\ compress.jpg') no-repeat;
-    background-position: top;
     background-size: cover ;
     border-radius: 25px;
 }
@@ -217,17 +205,7 @@ section h2 {
     justify-content: space-around;
 }
 
-.cardio {
-    height: 375px;
-    float: left;
-    padding: 30px 0 0 15px;
-    box-sizing: border-box;
-    border-radius: 25px;
-    margin-bottom: 50px;
-}
-
 #cardio-picture {
-    height: 375px;
     width: 50%;
     background: url('../images/Cardio\ -SF\ edit\ compress.jpg') no-repeat;
     background-position: top;
