@@ -166,7 +166,7 @@ section h2 {
 }
 
 .benefits-boxes {
-    height: 375px;
+    height: 450px;
     float: left;
     padding: 0px 5px 0 5px;
     box-sizing: border-box;
@@ -211,7 +211,7 @@ section h2 {
 #cardio-picture {
     width: 50%;
     background: url('../images/Cardio\ -SF\ edit\ compress.jpg') no-repeat;
-    background-position: top;
+    background-position: 50% 25%;
     background-size: cover;
     border-radius: 25px;
 }
@@ -341,6 +341,10 @@ label {
     #form {
         width: 60%;
     }
+
+    .benefits-boxes {
+        height: 375px;
+    }    
 
 }
 
