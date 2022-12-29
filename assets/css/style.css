@@ -87,12 +87,11 @@ h1 {
 
 #home-info div {
     height: 300px;
-    float: left;
     padding: 30px 0 0 15px;
     box-sizing: border-box;
     border-radius: 25px;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
 }
 
 #home-info li {
@@ -110,10 +109,8 @@ h1 {
 
 }
 
-.home-content-outer-spacer {
-    display: flex;
-    width: 25%;
-    background-color: #1f1d1d;
+br {
+    clear: both;
 }
 
 #times-pricing div {
@@ -362,10 +359,6 @@ label {
         width: 80%;
     }
 
-    .home-content-outer-spacer {
-        width: 10%;
-    }
-
     .times-pricing-outer-spacer {
         width: 10%;
     }
@@ -463,10 +456,6 @@ label {
 
     #benefits {
         font-size: 2vw;
-    }
-
-    .home-content-outer-spacer {
-        width: 5%;
     }
 
     .times-pricing-outer-spacer {
