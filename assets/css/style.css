@@ -35,7 +35,7 @@ h1 {
 
 #menu {
     font-size: 110%;
-    font-weight: bold;
+    font-weight: bolder;
     float: right;
     letter-spacing: 3px;
 
@@ -156,7 +156,7 @@ h1 {
     list-style-type: none;
 }
 
-section h2 {
+#home-info h2, #times-pricing h2 {
     text-decoration: underline;
     text-transform: uppercase;
     line-height: 50px;
@@ -165,10 +165,12 @@ section h2 {
 
 /* benefits */
 
-#benefits h1 {
+#benefits h2 {
     font-family: 'Cinzel', sans-serif;
     margin: 25px 0 25px 0;
     text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.5em;
 }
 
 .benefits-boxes {
@@ -349,7 +351,7 @@ label {
 
     .benefits-boxes {
         height: 375px;
-    }    
+    }
 
 }
 
