@@ -195,6 +195,7 @@ section h2 {
     background: url('../images/Crossfit\ -\ SF\ edit\ compress.jpg') no-repeat;
     background-size: cover;
     border-radius: 25px;
+    float: right;
 }
 
 #crossfit-info {
@@ -204,6 +205,7 @@ section h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    float: left;
 }
 
 #cardio-picture {
@@ -458,4 +460,35 @@ label {
     .times-pricing-outer-spacer {
         width: 5%;
     }
+
+    .benefits-boxes {
+        padding: 0 10px 0 10px;
+        margin-bottom: 25px;
+        margin-right: 5px;
+    }
+
+    #powerlifting-bodybuilding-picture {
+        width: 100%;      
+    }
+    
+    #powerlifting-bodybuilding-info {
+        width: 100%;
+    }
+    
+    #crossfit-picture {
+        width: 100%;
+    }
+    
+    #crossfit-info {
+        width: 100%;
+    }
+    
+    #cardio-picture {
+        width: 100%;
+    }
+    
+    #cardio-info {
+        width: 100%;
+    }
+    
 }
