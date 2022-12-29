@@ -35,6 +35,7 @@ h1 {
 
 #menu {
     font-size: 110%;
+    font-weight: bold;
     float: right;
     letter-spacing: 3px;
 
@@ -77,7 +78,7 @@ h1 {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url('../images/hero-image-final-edit.jpg') no-repeat center center;
+    background: url('../images/hero-image-compressed.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -136,6 +137,11 @@ h1 {
     line-height: 25px;
 }
 
+.pricing-heading {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
 .times-pricing-outer-spacer {
     width: 25%;
     background-color: #1f1d1d;
@@ -176,7 +182,7 @@ section h2 {
 
 #powerlifting-bodybuilding-picture {
     width: 50%;
-    background: url('../images/Powerlifting\ -\ SF\ edit\ compress.jpg') no-repeat center;
+    background: url('../images/Powerlifting\ -\ SF\ edit\ compress2.0.jpg') no-repeat center;
     background-size: cover;
     border-radius: 25px;
 }
@@ -192,7 +198,7 @@ section h2 {
 
 #crossfit-picture {
     width: 50%;
-    background: url('../images/Crossfit\ -\ SF\ edit\ compress.jpg') no-repeat;
+    background: url('../images/Crossfit\ -\ SF\ edit\ compress2.0.jpg') no-repeat;
     background-size: cover;
     border-radius: 25px;
     float: right;
@@ -210,7 +216,7 @@ section h2 {
 
 #cardio-picture {
     width: 50%;
-    background: url('../images/Cardio\ -SF\ edit\ compress.jpg') no-repeat;
+    background: url('../images/Cardio\ -SF\ edit\ compress2.0.jpg') no-repeat;
     background-position: 50% 25%;
     background-size: cover;
     border-radius: 25px;
