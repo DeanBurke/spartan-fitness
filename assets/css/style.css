@@ -91,7 +91,7 @@ h1 {
     box-sizing: border-box;
     border-radius: 25px;
     text-align: center;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 25px auto;
 }
 
 #home-info li {
@@ -103,7 +103,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgba(163, 117, 50, .5);
-    border: 2px solid #c6c6c6;
+    box-shadow: 5px 10px 8px black;
     width: 50%;
     line-height: 25px;
 
@@ -113,35 +113,38 @@ br {
     clear: both;
 }
 
-#times-pricing div {
+#times-pricing {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+/* #times-pricing div {
     height: 300px;
-    float: left;
     padding: 30px 0 0 15px;
     box-sizing: border-box;
     border-radius: 25px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
+} */
 
 #times-pricing-content {
+    height: 300px;
+    padding: 30px 0 0 15px;
+    box-sizing: border-box;
     background-color: rgba(163, 117, 50, .5);
-    border: 2px solid #c6c6c6;
+    box-shadow: 5px 10px 8px black;
     width: 22.5%;
     line-height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .pricing-heading {
     font-size: 1.17em;
     font-weight: bold;
-}
-
-.times-pricing-outer-spacer {
-    width: 25%;
-    background-color: #1f1d1d;
 }
 
 #times-pricing-inner-spacer {
@@ -167,7 +170,7 @@ br {
     margin: 25px 0 25px 0;
     text-align: center;
     letter-spacing: 3px;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 .benefits-boxes {
@@ -177,6 +180,7 @@ br {
     box-sizing: border-box;
     border-radius: 25px;
     margin-bottom: 50px;
+    box-shadow: 5px 10px 8px black;
 }
 
 #powerlifting-bodybuilding-picture {
@@ -188,11 +192,11 @@ br {
 
 #powerlifting-bodybuilding-info {
     background-color: rgba(163, 117, 50, .5);
-    border: 2px solid #c6c6c6;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 10px 0 0 15px;
 }
 
 #crossfit-picture {
@@ -205,11 +209,11 @@ br {
 
 #crossfit-info {
     background-color: rgba(163, 117, 50, .5);
-    border: 2px solid #c6c6c6;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 10px 0 0 15px;
     float: left;
 }
 
@@ -223,11 +227,11 @@ br {
 
 #cardio-info {
     background-color: rgba(163, 117, 50, .5);
-    border: 2px solid #c6c6c6;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 10px 0 0 15px;
 }
 
 /* footer */
@@ -308,7 +312,7 @@ label {
 }
 
 .text-input:hover {
-    border: 2px solid #f16c6b;
+    border: 1px solid #f16c6b;
     background-color: whitesmoke;
 }
 
