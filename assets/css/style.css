@@ -260,6 +260,7 @@ fieldset {
 
 legend {
     margin-left: 10px;
+    text-align: center;
 }
 
 label {
@@ -465,30 +466,32 @@ label {
         padding: 0 10px 0 10px;
         margin-bottom: 25px;
         margin-right: 5px;
+        height: 225px;
     }
 
     #powerlifting-bodybuilding-picture {
-        width: 100%;      
+        width: 100%;
     }
-    
+
     #powerlifting-bodybuilding-info {
         width: 100%;
     }
-    
+
     #crossfit-picture {
         width: 100%;
     }
-    
+
     #crossfit-info {
         width: 100%;
     }
-    
+
     #cardio-picture {
         width: 100%;
     }
-    
+
     #cardio-info {
         width: 100%;
     }
-    
+
+
 }
