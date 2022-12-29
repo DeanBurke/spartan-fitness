@@ -364,6 +364,21 @@ label {
         width: 5%;
     }
 
+    #left-spartan-helmet {
+        visibility: hidden;
+        width: 10%;
+    }
+
+    #right-spartan-helmet {
+        visibility: hidden;
+        width: 10%;
+    }
+
+    #form {
+        width: 80%;
+    }
+
+
 }
 
 /* for medium screen sizes from 950px wide and down */
@@ -409,5 +424,38 @@ label {
         margin: 0 15px 0 15px;
     }
 
+}
 
+/* for small screen sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+
+    #logo {
+        font-size: 200%;
+    }
+
+    #hero-image {
+        height: 600px;
+    }
+
+    #home-content {
+        font-size: 2vw;
+        width: 90%;
+    }
+
+    #times-pricing-content {
+        font-size: 2vw;
+        width: 42.5%;
+    }
+
+    #benefits {
+        font-size: 2vw;
+    }
+
+    .home-content-outer-spacer {
+        width: 5%;
+    }
+
+    .times-pricing-outer-spacer {
+        width: 5%;
+    }
 }
