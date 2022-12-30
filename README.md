@@ -102,8 +102,40 @@ This website is designed to help users find out information on opening times and
 
 <br>
 
- ## Why Spartan Fitness Section
+ ## Why Spartan Fitness section
 
- * The 'Why Spartan Fitnes?' section gives the user details of what 
+ * The 'Why Spartan Fitnes?' section gives the user details of what the gym stands for and how it can help all people who are interesting in starting or continuing their fitness journey.
+ * The colours of the background and text contrasted while keeping with the colour scheme of the website.
+ * A border shadow was added to all content boxes on the home page to add depth and consistency.
+
 
 ![Screenshot of why Spartan Fitness section](./assets/images/why-spartan-fitness.jpg)
+
+<br>
+
+## Opening times and Pricing section
+
+* The opening times and pricing section was created so as to give users a clear insight on important business information. 
+* Content box styling consistent as mentioned in the [Why Spartan Fitness Section](#why-spartan-fitness-section).
+* Using Flex CSS and media queries, I was able to create a consistent responsive design so as to not harm user experience.
+
+![Screenshot of Opening Times and Pricing section](./assets/images/times-pricing.jpg)
+
+<br>
+
+## Benefits section
+
+* The 'Benefits of various training' section was designed to give users a brief look into what different types of training can help with.
+* It was designed to pique users interest to learn more training without overloading them with information. 
+* Content box styling consistent as mentioned in the [Why Spartan Fitness Section](#why-spartan-fitness-section).
+* The layout format was created with format of;
+    * Image / Content
+    * Content / Image
+    * Image / Content
+* Flex CSS styling was used to complete this, and media queries were put in place to let the image/content 
+
+![Screenshot of Benefits section](./assets/images/benefits.jpg) <br>
+*Screenshot of benefits section on desktop*
+
+![Screenshot of navigation bar on mobile](./assets/images/benefits-mobile.jpg) <br>
+ *Screenshot of benefits section on mobile*
