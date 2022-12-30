@@ -167,7 +167,7 @@ br {
 .benefits-boxes {
     height: 450px;
     float: left;
-    padding: 0px 5px 0 5px;
+    padding: 0px 10px 0 10px;
     box-sizing: border-box;
     border-radius: 25px;
     margin-bottom: 50px;
@@ -187,7 +187,6 @@ br {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 10px 0 0 15px;
 }
 
 #crossfit-picture {
@@ -204,7 +203,6 @@ br {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 10px 0 0 15px;
     float: left;
 }
 
@@ -222,7 +220,6 @@ br {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 10px 0 0 15px;
 }
 
 /* footer */
@@ -494,6 +491,10 @@ label {
 
     #cardio-info {
         width: 100%;
+    }
+
+    #copyright-container {
+        font-size: smaller;
     }
 
 
