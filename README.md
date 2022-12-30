@@ -132,10 +132,122 @@ This website is designed to help users find out information on opening times and
     * Image / Content
     * Content / Image
     * Image / Content
-* Flex CSS styling was used to complete this, and media queries were put in place to let the image/content 
+* Flex CSS styling was used to complete this, and media queries were put in place to let the image/content flow smoothly on any device. 
 
 ![Screenshot of Benefits section](./assets/images/benefits.jpg) <br>
 *Screenshot of benefits section on desktop*
 
-![Screenshot of navigation bar on mobile](./assets/images/benefits-mobile.jpg) <br>
+![Screenshot of Benefits section on mobile](./assets/images/benefits-mobile.jpg) <br>
  *Screenshot of benefits section on mobile*
+
+ <br>
+
+ ## Footer
+
+ * The footer of the website is designed to be minimalistic and include a number of links to the different social networks attached to Spartan Fitness.
+ * These are displayed using icons obtained through [Font Awesome](https://fontawesome.com/).
+ * These icons are clickable and will open up the respective social networks in a new page.
+ * It also includes a Spartan Fitness copyright name along with clickable link for my LinkedIn page under 'Dean Burke'.
+ 
+
+![Screenshot of Footer section](./assets/images/footer.jpg)
+
+<br>
+
+## Contact Us page
+
+* The contact us page was designed in thirds, with two outer spartan helmets enclosing the contact form. 
+* The form itself was created for users to get in touch about any queries or concerns they might have about joining. It can help to improve the user experience by providing a quick and convenient way to connect with the gym.
+* When the user hovers over each text input box, the border will change to acknowledge which box is about to be selected. 
+* Likewise when the user hovers over the submit button with changes color to signal to the user it is ready to click. 
+* HTML rules were implemented so as to make sure no box is allowed to be submitted empty.
+* Media queries were added to remove the images on smaller devices so as keep a smooth user experience.
+
+![Screenshot of Contact Us section](./assets/images/contact-us.jpg) <br>
+*Screenshot of contact us section on desktop*
+
+![Screenshot of Contact Us on mobile](./assets/images/contact-us-mobile.jpg) <br>
+*Screenshot of contact us section on mobile*
+
+<br>
+
+# Testing
+
+There was a number of different tests done to ensure that website was working as it should:
+
+* The website was tested on a number of different browsers:
+    * Windows
+        * Firefox on Windows 10 Pro
+        * Chrome on Windows 10 Pro
+    * Android
+        * Chrome OnePlus 10
+        * Chrome Samsung Galaxy S22
+    * Apple iOS
+        * Safari iPhone SE
+* All features were tested as they were implemented such as clickable logos, navigation items directing the user to the correct location, the button itself changing colour as it should while being hovered etc.
+* The form was tested to ensure that user had to enter information or they would be unable to submit their form response. 
+* Once I had worked on the responsiveness of the website the layout of both pages were tested in Google Dev Tools, on a 26 inch laptop screen, on a Samsung Galaxy Tab S8 (11 inch display) and on a OnePlus 10.
+* I used both [W3C Validator](https://validator.w3.org/#validate_by_input) and [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to test my code to check for mistakes or errors.
+* I used lighthouse to improve accessibility and perfomance, and compressed images that were causing long load times.
+
+<br>
+
+## Bugs
+
+**Solved Bugs**
+
+* When I initially implemented my header/hero image, it wasn't returning any image on the file. 
+    * I accidentally had tabbed to select the background image as opposed to background
+    * I amended the code, and it worked fine **background: url('../images/hero-image-compressed.jpg') no-repeat center center;**
+* I incorrectly used empty Divs and styled them when trying to center infomation boxes (Opening Times & Pricing), which is bad practice.
+    * I used flex CSS styling to amend this issue and fixed the problem. <br>
+     ![Screenshot of times and pricing code](./assets/images/times-pricing-code.jpg)
+* When testing my code in [W3C Validator](https://validator.w3.org/#validate_by_input), it returned 2 bugs, I had used a section tag with no subsequent h element, this was then changed to a DIV tag. Also I had mistakenly used an ID selector twice in my code, this was changed to a Class selector and my styling was updated accordingly.
+
+## Unfixed Bugs
+
+No unfixed bugs
+
+<br>
+
+# Validating Testing
+
+* HTML
+    * No errors were returned when running my final test of [W3C Validator](https://validator.w3.org/#validate_by_input)
+* CSS
+    * No errors were returned when running my final test of [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* Accessibility
+    * Using lighthouse in Chrome Dev Tools, I confirmed that colors and fonts were readable against backgrounds. <br>
+     ![Screenshot of Lighthouse results](./assets/images/updated-lighthouse-check.jpg)
+
+<br>
+
+# Deployment
+
+The site was deployed to GitHub pages. The following steps were used:
+
+* Go to respositiory
+* Click the Settings tab
+* On the left hand column, click Pages under code and automation
+* Under build and deployment, in the source box, ensure the 'Deploy from a branch' is selected.
+* Then select main under the branch and click save
+![Screenshot of Deployment Build and Deployment section](./assets/images/deployment.jpg)
+* It may take a few minutes, but when the page has been created you will see the following message.
+![Screenshot of Deployment live](./assets/images/deployment-live.jpg)
+
+<br>
+
+# Credits
+
+* I used code I had learned from the love running project, with regards to my background image.
+* I used [W3 Schools](https://www.w3schools.com/) for some help with regards to my form layout and also box shadowing on my content boxes.
+    * This [article](https://www.w3schools.com/tags/tag_fieldset.asp) for help with my form
+    * This [article](https://www.w3schools.com/cssref/css3_pr_box-shadow.php) for help with shadowing around my box.
+* For the layout of my website I had to learn how to Flex CSS, this webite on [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) helped a lot. 
+
+## Content
+
+* I used the following articles to help with the content for my [Benefits Section](#benefits-section)
+    * Benefits of powerlifting and bodybuilding [article](https://www.healthline.com/nutrition/powerlifting-vs-bodybuilding)
+    * Benefits of crossfit [article](https://www.healthline.com/health/exercise-fitness/crossfit-benefits#improve-agility)
+    * Benefits of cardio [article](https://www.nike.com/a/cardio-hiit-difference)
