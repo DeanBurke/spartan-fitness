@@ -47,7 +47,7 @@ This website is designed to help users find out information on opening times and
 
  ![Screenshot of colour palette done on colormind.io](./assets/images/color-scheme-used.jpg)
 
- An additiona color using RGBA was used which was #A37532 with some opacity, i.e. `rgba(163, 117, 50, .5)`
+ An additional color using RGBA was used which was #A37532 with some opacity, i.e. `rgba(163, 117, 50, .5)`
 
 <br>
 
@@ -126,13 +126,13 @@ This website is designed to help users find out information on opening times and
 ## Benefits section
 
 * The 'Benefits of various training' section was designed to give users a brief look into what different types of training can help with.
-* It was designed to pique users interest to learn more training without overloading them with information. 
+* It was designed to pique user's interest to learn more training without overloading them with information. 
 * Content box styling consistent as mentioned in the [Why Spartan Fitness Section](#why-spartan-fitness-section).
-* The layout format was created with format of;
+* The layout format was created with the below positioning in mind:
     * Image / Content
     * Content / Image
     * Image / Content
-* Flex CSS styling was used to complete this, and media queries were put in place to let the image/content flow smoothly on any device. 
+* Float CSS styling was used to complete this, and media queries were put in place to let the image/content flow smoothly on any device. 
 
 ![Screenshot of Benefits section](./assets/images/benefits.jpg) <br>
 *Screenshot of benefits section on desktop*
